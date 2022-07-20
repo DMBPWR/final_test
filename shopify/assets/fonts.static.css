@@ -1,0 +1,79 @@
+@font-face {
+    font-family: 'GTSuperLight';
+    src: url('./GTSuperDisplayLight.static.eot');
+    src: url('./GTSuperDisplayLight.static.eot') format('embedded-opentype'),
+    url('./GTSuperDisplayLight.static.woff2') format('woff2'),
+    url('./GTSuperDisplayLight.static.woff') format('woff'),
+    url('./GTSuperDisplayLight.static.ttf') format('truetype'),
+    url('./GTSuperDisplayLight.static.svg#GTSuperDisplayLight') format('svg');
+}
+
+@font-face {
+    font-family: 'GTSuperLightItalic';
+    src: url('./GTSuperDisplayLightItalic.static.eot');
+    src: url('./GTSuperDisplayLightItalic.static.eot') format('embedded-opentype'),
+    url('./GTSuperDisplayLightItalic.static.woff2') format('woff2'),
+    url('./GTSuperDisplayLightItalic.static.woff') format('woff'),
+    url('./GTSuperDisplayLightItalic.static.ttf') format('truetype'),
+    url('./GTSuperDisplayLightItalic.static.svg#GTSuperDisplayLightItalic') format('svg');
+}
+
+@font-face {
+    font-family: 'GTSuperMedium';
+    src: url('./GTSuperDisplayMedium.static.eot');
+    src: url('./GTSuperDisplayMedium.static.eot') format('embedded-opentype'),
+    url('./GTSuperDisplayMedium.static.woff2') format('woff2'),
+    url('./GTSuperDisplayMedium.static.woff') format('woff'),
+    url('./GTSuperDisplayMedium.static.ttf') format('truetype'),
+    url('./GTSuperDisplayMedium.static.svg#GTSuperDisplayMedium') format('svg');
+}
+
+@font-face {
+    font-family: 'GTSuperMediumItalic';
+    src: url('./GTSuperDisplayMediumItalic.static.eot');
+    src: url('./GTSuperDisplayMediumItalic.static.eot') format('embedded-opentype'),
+    url('./GTSuperDisplayMediumItalic.static.woff2') format('woff2'),
+    url('./GTSuperDisplayMediumItalic.static.woff') format('woff'),
+    url('./GTSuperDisplayMediumItalic.static.ttf') format('truetype'),
+    url('./GTSuperDisplayMediumItalic.static.svg#GTSuperDisplayMediumItalic') format('svg');
+}
+
+@font-face {
+    font-family: 'GTSuperTextBook';
+    src: url('./GTSuperTextBook.static.eot');
+    src: url('./GTSuperTextBook.static.eot') format('embedded-opentype'),
+    url('./GTSuperTextBook.static.woff2') format('woff2'),
+    url('./GTSuperTextBook.static.woff') format('woff'),
+    url('./GTSuperTextBook.static.ttf') format('truetype'),
+    url('./GTSuperTextBook.static.svg#GTSuperTextBook') format('svg');
+}
+
+@font-face {
+    font-family: 'GTSuperTextBookItalic';
+    src: url('./GTSuperTextBookItalic.static.eot');
+    src: url('./GTSuperTextBookItalic.static.eot') format('embedded-opentype'),
+    url('./GTSuperTextBookItalic.static.woff2') format('woff2'),
+    url('./GTSuperTextBookItalic.static.woff') format('woff'),
+    url('./GTSuperTextBookItalic.static.ttf') format('truetype'),
+    url('./GTSuperTextBookItalic.static.svg#GTSuperTextBookItalic') format('svg');
+}
+
+@font-face {
+    font-family: 'PlatformMedium';
+    src: url('./PlatformMedium.static.eot');
+    src: url('./PlatformMedium.static.eot') format('embedded-opentype'),
+    url('./PlatformMedium.static.woff2') format('woff2'),
+    url('./PlatformMedium.static.woff') format('woff'),
+    url('./PlatformMedium.static.ttf') format('truetype'),
+    url('./PlatformMedium.static.svg#PlatformMedium') format('svg');
+}
+
+@font-face {
+    font-family: 'PlatformRegular';
+    src: url('./PlatformRegular.static.eot');
+    src: url('./PlatformRegular.static.eot') format('embedded-opentype'),
+    url('./PlatformRegular.static.woff2') format('woff2'),
+    url('./PlatformRegular.static.woff') format('woff'),
+    url('./PlatformRegular.static.ttf') format('truetype'),
+    url('./PlatformRegular.static.svg#PlatformRegular') format('svg');
+}

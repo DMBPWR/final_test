@@ -1,0 +1,13 @@
+<a href="#" class="swiper-slide card-atc" data-variant="{{ product.selected_or_first_available_variant.id }}">
+    <img src="{{ product.featured_image | img_url: 'master' }}" alt="{{ product.image.alt }}">
+
+    <div class="p-[12px] md:p-[20px] flex justify-between items-baseline bg-white">
+        <h5 class="font-gt-super-light-italic text-[20px] leading-[24px] md:text-[24px] md:leading-[32px] text-left font-medium">
+            {{ product.title }}
+        </h5>
+
+        <span class="font-platform-medium text-[14px] leading-[14px] pb-[6px]">
+            {{ product.price | money_without_trailing_zeros }}
+        </span>
+    </div>
+</a>

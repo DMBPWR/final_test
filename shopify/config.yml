@@ -1,0 +1,6 @@
+development:
+  password: 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
+  theme_id: "134107726065"
+  store: tomorrow-frontend-exam-13.myshopify.com
+  ignore_files:
+  - settings_data.json

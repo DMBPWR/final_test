@@ -1,0 +1,125 @@
+{
+  "layout": "custom",
+  "sections": {
+    "hp-cards": {
+      "type": "hp-cards",
+      "blocks": {
+        "b0b524a3-ae2c-4eed-8403-799b9f4dce17": {
+          "type": "card",
+          "settings": {
+            "bg_color": "#00966e",
+            "font_color": "#000000",
+            "image": "shopify:\/\/shop_images\/Rectangle_289.png",
+            "title": "Make a scene.",
+            "text": "Everything you need for a great party, from decor to drinks and games.",
+            "btn_text": "find your scene",
+            "btn_link": "#"
+          }
+        },
+        "19721157-cf59-4957-aaf3-48e7a0ae3fdb": {
+          "type": "card",
+          "settings": {
+            "bg_color": "#85abbd",
+            "font_color": "#000000",
+            "image": "shopify:\/\/shop_images\/Rectangle_289_12deb2db-517d-4813-b32c-72d942073a02.png",
+            "title": "Make it extra.",
+            "text": "Once you’ve chosen a scene, you can dial it up with fun a la carte add-ons.",
+            "btn_text": "shop party supplies",
+            "btn_link": "#"
+          }
+        },
+        "e71c1077-7cdd-4d3b-bb33-f6d434221356": {
+          "type": "card",
+          "settings": {
+            "bg_color": "#e3ff21",
+            "font_color": "#280000",
+            "image": "shopify:\/\/shop_images\/Rectangle_2891.png",
+            "title": "Make it joyful.",
+            "text": "Create the arrangement of your dreams with DIY kits from Wild & Flowers.",
+            "btn_text": "shop florals",
+            "btn_link": "#"
+          }
+        },
+        "8bdcc95d-7e1c-41a6-a830-1329d2137efe": {
+          "type": "card",
+          "settings": {
+            "bg_color": "#bf91c4",
+            "font_color": "#000000",
+            "image": "shopify:\/\/shop_images\/Rectangle_2892.png",
+            "title": "Make it happen.",
+            "text": "Need a bartender, caterer, or DJ? Just add to cart. It’s that easy.",
+            "btn_text": "browse vendors",
+            "btn_link": "#"
+          }
+        }
+      },
+      "block_order": [
+        "b0b524a3-ae2c-4eed-8403-799b9f4dce17",
+        "19721157-cf59-4957-aaf3-48e7a0ae3fdb",
+        "e71c1077-7cdd-4d3b-bb33-f6d434221356",
+        "8bdcc95d-7e1c-41a6-a830-1329d2137efe"
+      ],
+      "settings": {
+        "title": "HAVING FUN 101"
+      }
+    },
+    "hp-products": {
+      "type": "hp-products",
+      "blocks": {
+        "dd85965f-077e-425a-84f1-614e6c52fae8": {
+          "type": "card",
+          "settings": {
+            "product": "black-leather-bag"
+          }
+        },
+        "00649854-d8aa-4467-9fa1-665a5b9b4505": {
+          "type": "card",
+          "settings": {
+            "product": "dark-denim-top"
+          }
+        },
+        "d9c43ac6-32a8-4690-928c-5f47ba04a880": {
+          "type": "card",
+          "settings": {
+            "product": "ocean-blue-shirt"
+          }
+        },
+        "1035e671-8baf-4c17-9e54-efd54aea0b3a": {
+          "type": "card",
+          "settings": {
+            "product": "classic-varsity-top"
+          }
+        },
+        "624baf41-b552-42fe-9973-bfda03c4be62": {
+          "type": "card",
+          "settings": {
+            "product": "dark-winter-jacket"
+          }
+        },
+        "f9b232df-2fca-4665-b18d-fe9ade284bb7": {
+          "type": "card",
+          "settings": {
+            "product": "yellow-wool-jumper"
+          }
+        }
+      },
+      "block_order": [
+        "dd85965f-077e-425a-84f1-614e6c52fae8",
+        "00649854-d8aa-4467-9fa1-665a5b9b4505",
+        "d9c43ac6-32a8-4690-928c-5f47ba04a880",
+        "1035e671-8baf-4c17-9e54-efd54aea0b3a",
+        "624baf41-b552-42fe-9973-bfda03c4be62",
+        "f9b232df-2fca-4665-b18d-fe9ade284bb7"
+      ],
+      "settings": {
+        "title": "PARTY A LA CARTE",
+        "btn_text": "shop all",
+        "btn_link": "#"
+      }
+    }
+  },
+  "order": [
+    "hp-cards",
+    "hp-products"
+  ]
+}

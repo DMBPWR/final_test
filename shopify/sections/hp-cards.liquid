@@ -1,0 +1,111 @@
+{% assign blocks = section.blocks %}
+{% assign title = section.settings.title %}
+
+<section id="hero-{{ section.id }}" class="relative">
+    <div class="container relative">
+        <h1 class="font-gt-super-light mt-[60px] mb-[30px] md:mt-[80px] md:mb-[60px] text-[40px] leading-[40px] md:text-[80px] md:leading-[80px] text-center font-medium">
+            {{ title }}
+        </h1>
+
+        <div class="swiper relative cards-slider after-gradient px-[12px]">
+            <div class="swiper-wrapper flex flex-no-wrap pl-[10px] sm:pl-0">
+                {% for block in blocks %}
+                    {% assign bg_color   = block.settings.bg_color %}
+                    {% assign font_color = block.settings.font_color %}
+                    {% assign image      = block.settings.image | img_url: 'master' %}
+                    {% assign title      = block.settings.title %}
+                    {% assign text       = block.settings.text %}
+                    {% assign btn_text   = block.settings.btn_text %}
+                    {% assign btn_link   = block.settings.btn_link %}
+
+                    {% render 'card-item',
+                        bg_color: bg_color,
+                        font_color: font_color,
+                        image: image,
+                        title: title,
+                        text: text,
+                        btn_text: btn_text,
+                        btn_link: btn_link
+                    %}
+                {% endfor %}
+            </div>
+
+            <div class="swiper-cards-button-next cursor-pointer flex sm:hidden justify-center items-center w-[30px] h-[30px] bg-white rounded-full absolute top-[50%] right-[20px] transform translate-y-[-50%] z-10">
+                <svg width="12" height="8" viewBox="0 0 12 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M9.37226 5.18764C8.63841 5.80481 7.85815 6.67903 7.27868 7.69702L6.62688 7.326C7.25494 6.22263 8.09543 5.28149 8.88953 4.61365C9.24459 4.31504 9.59542 4.06681 9.91951 3.8821C9.59556 3.69858 9.2449 3.45176 8.88996 3.15416C8.09537 2.48794 7.25452 1.54633 6.6263 0.434588L7.27927 0.0656163C7.85857 1.0908 8.63847 1.96455 9.37183 2.57945C9.73834 2.88674 10.087 3.12414 10.3861 3.28269C10.6964 3.44719 10.9143 3.50581 11.0306 3.50581L11.0306 4.25581C10.9152 4.25581 10.6977 4.31477 10.387 4.4806C10.0878 4.64033 9.739 4.87922 9.37226 5.18764Z" fill="black"/>
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M0 3.53149H10.5V4.28149H0V3.53149Z" fill="black"/>
+                </svg>
+            </div>
+
+            <div class="swiper-cards-button-prev cursor-pointer flex sm:hidden justify-center items-center w-[30px] h-[30px] bg-white rounded-full absolute top-[50%] left-[20px] transform translate-y-[-50%] z-10">
+                <svg width="13" height="8" viewBox="0 0 13 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M2.63632 2.56718C3.37124 1.95129 4.15302 1.07842 4.73425 0.0614374L5.38541 0.433585C4.75543 1.53587 3.91332 2.47555 3.11806 3.14201C2.76248 3.44 2.41122 3.68762 2.08682 3.87178C2.41045 4.05586 2.76068 4.30329 3.1151 4.6015C3.90853 5.2691 4.74775 6.21216 5.37404 7.32499L4.72044 7.69283C4.14291 6.66664 3.36453 5.79154 2.63223 5.17538C2.26626 4.86745 1.91801 4.62944 1.6192 4.47037C1.30918 4.30534 1.09134 4.24634 0.975032 4.24614L0.976333 3.49614C1.09182 3.49634 1.30937 3.43776 1.62032 3.27246C1.91981 3.11326 2.26905 2.87497 2.63632 2.56718Z" fill="black"/>
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M12.0057 4.2395L1.50569 4.2213L1.50699 3.4713L12.007 3.4895L12.0057 4.2395Z" fill="black"/>
+                </svg>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+{% schema %}
+{
+    "name": "HP Cards",
+    "settings": [
+        {
+            "type": "text",
+            "id": "title",
+            "label": "Section title"
+        }
+    ],
+    "blocks": [
+        {
+            "type": "card",
+            "name": "card",
+            "settings": [
+                {
+                    "type": "color",
+                    "id": "bg_color",
+                    "label": "Background color"
+                },
+                {
+                    "type": "color",
+                    "id": "font_color",
+                    "label": "Text color"
+                },
+                {
+                    "type": "image_picker",
+                    "id": "image",
+                    "label": "Image"
+                },
+                {
+                    "type": "text",
+                    "id": "title",
+                    "label": "Title"
+                },
+                {
+                    "type": "textarea",
+                    "id": "text",
+                    "label": "Text"
+                },
+                {
+                    "type": "text",
+                    "id": "btn_text",
+                    "label": "Button text"
+                },
+                {
+                    "type": "url",
+                    "id": "btn_link",
+                    "label": "Button link"
+                }
+            ]
+        }
+    ],
+    "presets": [
+        {
+            "name": "HP Cards",
+            "category": "Homepage"
+        }
+    ]
+}
+{% endschema %}
